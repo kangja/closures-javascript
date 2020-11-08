@@ -21,12 +21,12 @@
 
 // myName = "Joey";
 
-printName();
+// printName();
 // Joey
 
 
 
-// If we change the name to something else and print out the name one more time, it says Joey and then Kate.
+// If we change the name to something else and print out the name one more time, it says Joey and then Kate. It's constantly going with whatever the most recent value of that variable is.  
 let myName = "Jason";
 
 function printName() {
@@ -36,3 +36,11 @@ function printName() {
 myName = "Joey";
 
 printName();
+// Joey
+
+myName = "Kate"; //it is not the most useful way that you can use closures. When most people think of closures, they think of functions inside of other functions. 
+
+printName();
+// Kate
+
+
